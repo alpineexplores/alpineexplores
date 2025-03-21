@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpine Explores - Trekking, Climbing, and Safari Tours in Pakistan</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Alpine Explores</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#treks">Trekking Routes</a></li>
+          <li><a href="#itineraries">Itineraries</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Explore the Majestic Mountains of Pakistan</h2>
+      <p>Specializing in trekking, climbing expeditions, and safari tours.</p>
+      <a href="#booking" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <section id="treks" class="treks">
+    <div class="container">
+      <h2>Trekking Routes</h2>
+      <p>Discover the most breathtaking trekking routes in Pakistan:</p>
+      <ul>
+        <li>K2 Base Camp Trek</li>
+        <li>Fairy Meadows and Nanga Parbat</li>
+        <li>Hunza Valley Trek</li>
+        <li>Rakaposhi Base Camp</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="itineraries" class="itineraries">
+    <div class="container">
+      <h2>Itineraries</h2>
+      <p>Detailed itineraries for your adventures:</p>
+      <ul>
+        <li>7-Day K2 Base Camp Trek</li>
+        <li>5-Day Fairy Meadows Tour</li>
+        <li>10-Day Hunza Valley Expedition</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <div class="container">
+      <h2>Booking</h2>
+      <p>Book your adventure today!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="date" placeholder="Select Date" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for more information:</p>
+      <ul>
+        <li>WhatsApp: <a href="https://wa.me/923407433668">+923407433668</a></li>
+        <li>Call: <a href="tel:+923485593374">03485593374</a></li>
+        <li>Email: <a href="mailto:alpineexplores@gmail.com">alpineexplores@gmail.com</a></li>
+        <li>Instagram: <a href="https://instagram.com/alpineexplores">@alpineexplores</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Alpine Explores. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
